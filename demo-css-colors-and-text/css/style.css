@@ -1,0 +1,32 @@
+#first-paragraph {
+    color: #5f9780;
+    background-color: #c6e4c6;
+    font-style: italic;
+    text-align: center;
+}
+#second-paragraph {
+    color: #5f9780;
+    background-color: #99e9c8;
+    font-size:18px;
+    text-decoration: underline;
+}
+#bold-paragraph {
+    font-weight: bold;
+    background-color: #64d7c2;
+}
+
+#span1 {
+    color: aqua;
+    font-weight: bold;
+    font: size 26px;
+}
+#span2 {
+    font-style: italic;
+    text-decoration: line-through;
+}
+#span3 {
+    background: #9ae0d2;
+}
+#span4 {
+    text-align: right;
+}

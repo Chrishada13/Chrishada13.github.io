@@ -1,0 +1,77 @@
+#palette1 {
+    font-family: fantasy;
+    text-align: center;
+}
+#palette1-color1 {
+    background-color: #12263A;
+    color:white;
+    text-align:center;
+    padding: 24px;
+    font-family: fantasy;
+}
+#palette1-color2 {
+    background-color:#06BCC1;
+    color:black;
+    text-align:center;
+    padding: 24px;
+    font-family: fantasy;
+}
+#palette1-color3 {
+    background-color: #c5d8d1;
+    color: black;
+    text-align: center;
+    padding: 24px;
+    font-family: fantasy;
+}
+
+#palette2 {
+    font-family:cursive;
+    text-align: center;
+}
+#palette2-color1 {
+    background-color: #BF211E;
+    color:black;
+    text-align:center;
+    padding: 24px;
+    font-family:cursive
+}
+#palette2-color2 {
+    background-color:#E9CE2C;
+    color:black;
+    text-align:center;
+    padding: 24px;
+    font-family:cursive
+}
+#palette2-color3 {
+    background-color: #F9DC5C;
+    color: black;
+    text-align: center;
+    padding: 24px;
+    font-family: cursive;
+}
+
+#palette3 {
+    font-family:monospace;
+    text-align: center;
+}
+#palette3-color1 {
+    background-color: #D1BCE3;
+    color:black;
+    text-align:center;
+    padding: 24px;
+    font-family: monospace;
+}
+#palette3-color2 {
+    background-color:#C49BBB;
+    color:black;
+    text-align:center;
+    padding: 24px;
+    font-family: monospace;
+}
+#palette3-color3 {
+    background-color: #585481;
+    color: black;
+    text-align: center;
+    padding: 24px;
+    font-family: monospace;
+}
