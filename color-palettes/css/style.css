@@ -1,5 +1,5 @@
 #palette1 {
-    font-family: fantasy;
+    font-family:fantasy;
     text-align: center;
 }
 #palette1-color1 {
@@ -33,14 +33,14 @@
     color:black;
     text-align:center;
     padding: 24px;
-    font-family:cursive
+    font-family:cursive;
 }
 #palette2-color2 {
     background-color:#E9CE2C;
     color:black;
     text-align:center;
     padding: 24px;
-    font-family:cursive
+    font-family:cursive;
 }
 #palette2-color3 {
     background-color: #F9DC5C;
