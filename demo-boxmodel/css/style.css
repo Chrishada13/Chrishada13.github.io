@@ -1,0 +1,13 @@
+div {
+    border: 10px solid aquamarine;
+    margin:24px 0px;
+    padding:24px 36px;
+    background-color: rgb(199, 249, 235);
+}
+p {
+    border:10px dotted rgb(29, 161, 173);
+    margin:24px 0px;
+    padding:24px;
+    background-color: aqua;
+    border-radius: 30px;
+}
