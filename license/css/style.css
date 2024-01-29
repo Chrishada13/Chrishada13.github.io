@@ -1,0 +1,102 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Generic License assignment.
+
+    Good luck, and have fun!
+*/
+#license {
+    border: 3px solid black;
+    width: 700px;
+    border-radius: 30px;
+    padding: 24px;
+    background-color: #ecb512;  
+}
+
+#left-side{   
+    display: inline-block;
+    width: 65%;
+}
+
+h1 {
+    font-weight: bold;
+    color:navy;
+    font-size: 60px;
+}
+
+h4{
+    color: white;
+    background-color: navy;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+#right-side {
+    text-align: right;
+}
+
+#address{
+    font-family: sans-serif;
+    font-weight:bold
+}
+
+div #data-left,
+div #data-right {
+    color: navy;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+
+div #data-left span,
+div #data-right span {
+    color: red;
+    font-weight: bold;
+}
+
+#id-and-expiration{
+    color: navy;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+
+#id-and-expiration span{
+    color: red;
+    font-weight: bold;
+    display:inline-block;
+}
+
+div #id-and-expiration div  {   
+    display:inline-block;
+}
+
+#data-fields{
+    display:inline-block;
+}
+
+#data-left,
+#data-right{
+    display:inline-block
+}
+
+#small-pic,
+#data-fields{
+    display:inline-block 
+}
+
+ #small-pic img{
+    width: 80%;
+ }
+
+ #right-side img{
+    width: 160%;
+ }
+
+ #right-side{
+    border: 3px solid red;
+    display:inline-block;
+ }
+ 
+
+
