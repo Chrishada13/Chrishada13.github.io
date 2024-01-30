@@ -11,7 +11,7 @@
 
 
 #license {
-    border: 3px solid black;
+    border: 3px solid navy;
     width: 700px;
     border-radius: 30px;
     padding: 20px;
@@ -19,7 +19,7 @@
     box-shadow: 16px 16px 8px rgba(0, 0, 0, 0.358);  
 }
 
-#left-side{   
+#left-side {   
     display: inline-block;
     width: 65%;
 }
@@ -31,7 +31,7 @@ h1 {
     margin: 0px;
 }
 
-h4{
+h4 {
     color: white;
     border: 5px solid navy;
     background-color: navy;
@@ -45,7 +45,7 @@ h4{
     text-align: right;
 }
 
-#address{
+#address {
     font-family: sans-serif;
     font-weight:bold
 }
@@ -63,55 +63,56 @@ div #data-right span {
     font-weight: bold;
 }
 
-#id-and-expiration{
+#id-and-expiration {
     margin-bottom: 15px;
 }
 
-#id-and-expiration{
+#id-and-expiration {
     color: navy;
     font-weight: lighter;
     font-family: sans-serif;
 }
 
-#id-and-expiration span{
+#id-and-expiration span {
     color: red;
     font-weight: bold;
     display:inline-block;
 }
 
-div #id-and-expiration div  {   
+div #id-and-expiration div {   
     display:inline-block;
     margin: 10px;
 }
 
-#data-fields{
+#data-fields {
     display:inline-block;
     margin: 10px;
 }
 
 #data-left,
-#data-right{
+#data-right {
     display:inline-block;
     margin-right: 10px;
 }
 
 #small-pic,
-#data-fields{
+#data-fields {
     display:inline-block 
 }
 
- #small-pic img{
+ #small-pic img {
     width: 70px;
     opacity: 50%;
+    margin-bottom: 20px;
  }
 
- #right-side img{
-    width: 180px;
+ #right-side img {
+    width: 200px;
  }
 
  #right-side,
  #donor,
- #real-id{
+ #real-id {
      text-align: center;
     display:inline-block;
  }
@@ -122,15 +123,15 @@ div #id-and-expiration div  {
     margin: 15px;
  }
  
-#data-fields #signature{
+#data-fields #signature {
     text-align: center;
 }
 
-.fa-solid{
+.fa-solid {
     color: red;
 }
 
-.fa-star{
+.fa-star {
     color: white;
     border: 3px solid gold;
     border-radius: 100%;
@@ -139,15 +140,13 @@ div #id-and-expiration div  {
 }
  
 #donor,
-#real-id{
+#real-id {
     display: inline-block;
     text-align: center;
 }
 
-#donor{
+#donor {
     color: red;
     font-family: sans-serif;
     font-weight: bold;
 }
-
-
