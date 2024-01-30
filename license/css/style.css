@@ -119,6 +119,7 @@ div #id-and-expiration div  {
 #signature {
     font-family: 'Corinthia', cursive;
     font-size: 25px;
+    margin: 15px;
  }
  
 #data-fields #signature{
