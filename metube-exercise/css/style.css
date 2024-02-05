@@ -77,7 +77,6 @@ body {
 .metube-item .thumbnail-placeholder {
     aspect-ratio: 16 / 9;
     background: radial-gradient(at top left, #14a3dc, rgb(21, 249, 188));
-    border-radius: 8px;
 }
 
 .metube-item h4 {
@@ -108,5 +107,11 @@ body {
 }
 
 .metube-item {
-    border: 3px solid #0e487b
+    background-color: #025c805f;
+
+}
+
+.metube-item a:hover {
+    background-color: #5b676b5f;
+
 }
