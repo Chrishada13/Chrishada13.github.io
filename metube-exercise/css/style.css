@@ -74,11 +74,6 @@ body {
     margin-bottom: 24px;
 }
 
-.metube-item .thumbnail-placeholder {
-    aspect-ratio: 16 / 9;
-    background: radial-gradient(at top left, #14a3dc, rgb(21, 249, 188));
-}
-
 .metube-item h4 {
     margin: 8px;
 }
@@ -114,4 +109,21 @@ body {
 .metube-item a:hover {
     background-color: #5b676b5f;
 
+}
+
+.metube-item img {
+    width: 100%;
+}
+
+#searchbar {
+    background-color: #def8f9;
+    width: 600px;
+    text-align: right;
+    margin-left: 700px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #939f99;
+    border: 2px solid #627a74;
+    padding-right: 22px;
 }
