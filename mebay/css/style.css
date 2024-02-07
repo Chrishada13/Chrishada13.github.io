@@ -9,14 +9,14 @@ body {
 }
 
 body {
-    background-color: aliceblue;
-    color: #000000;
+    background-color: rgb(240, 255, 253);
+    color: #39453f;
 }
 
 #three-columns {
     margin: 48px 0px;
     display: grid;
-    grid-template-columns: 50px 1fr 1fr;
+    grid-template-columns: 50px 500px 300px;
     grid-template-areas: 
         ". main-area left-sidebar right-sidebar .";
 }
@@ -28,11 +28,13 @@ body {
 
 #column-2 {
     grid-area: main-area;
+    width: 700px;
 }
 
 #column-3 {
-    margin-right: 30px;
+    margin-right: 20px;
     grid-area: right-sidebar;
+    width: 300px;
 }
 
 #three-columns h1 {
@@ -41,7 +43,7 @@ body {
 
 #three-columns h2,
 #three-columns h3 {
-    border-bottom: 2px solid #92949d;
+    border-bottom: 2px solid #3f4b47;
     padding-bottom: 8px;
 }
 
@@ -55,7 +57,7 @@ body {
 }
 
 #three-columns ul a {
-    color: #000000;
+    color: #22342b;
     text-decoration: none;
 }
 
@@ -63,10 +65,11 @@ body {
 .sticky-sidebar {
     position: sticky;
     top: 24px;
-    background-color: #cacdd8;
+    border:  2px solid #79958a;
     border-radius: 4px;
     padding: 24px;
     margin: 24px;
+    background-color: #f4fcfa;
 }
 
 #main-photo img {
@@ -88,4 +91,38 @@ body {
 #preview-photos img {
     width: 110px;
     margin: 8px;
+}
+
+.sticky-sidebar {
+    position: sticky;
+    top: 24px;
+    border:  2px solid #79958a;
+    border-radius: 4px;
+    padding: 24px;
+    margin: 24px;
+    background-color: #f4fcfa;
+}
+
+.sticky-sidebar li  {
+    position: sticky;
+    top: 24px;
+    border:  2px solid #8ccbb6;
+    border-radius: 8px;
+    width: 150px;
+    background-color: #8ccbb6;
+    padding: 30px;
+    margin: 24px;
+    text-align: center;
+}
+
+h1 {
+    color: #8ccbb6;
+}
+
+#search-bar {
+    background-color: #f4fcfa;
+    border: 2px solid #3f4b47;
+    width: 650px;
+    margin: 10px;
+    padding-left: 2%;
 }
