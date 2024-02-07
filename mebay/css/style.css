@@ -16,7 +16,7 @@ body {
 #three-columns {
     margin: 48px 0px;
     display: grid;
-    grid-template-columns: 50px 500px 300px;
+    grid-template-columns: 50px 500px 1fr;
     grid-template-areas: 
         ". main-area left-sidebar right-sidebar .";
 }
@@ -24,11 +24,11 @@ body {
 #column-1 {
     margin-left: 24px;
     grid-area: left-sidebar;
+    width: 650px;
 }
 
 #column-2 {
     grid-area: main-area;
-    width: 700px;
 }
 
 #column-3 {
@@ -121,7 +121,7 @@ h1 {
 
 #search-bar {
     background-color: #f4fcfa;
-    border: 2px solid #3f4b47;
+    border: 2px solid #7e9990;
     width: 650px;
     margin: 10px;
     padding-left: 2%;
