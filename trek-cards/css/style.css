@@ -23,6 +23,9 @@ body {
     box-shadow: -4px 4px 12px #1c1c1d;
     background-color: rgb(236, 255, 235);
     margin: 20px;
+    transition: 
+        transform 0.5s,
+        box-shadow 0.5s;
 }     
 
 .card-style-1 img {
@@ -39,6 +42,8 @@ body {
     width:100%;
     border: 3px solid green;
     padding: 20px;
+    transition: 
+        background-color 0.5s;
 }
 
 p {
@@ -49,3 +54,13 @@ p {
 h2 {
     text-align: center;
 }
+
+.card-style-1 a:hover {
+    background-color: #71fb71;
+}
+
+.card-style-1:hover {
+    transform: translateY(-12px);
+    box-shadow: -4px 4px 20px #1c1c1d;     
+}
+
