@@ -1,0 +1,91 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+
+.card-style-3 {
+    max-width: 350px;
+    background-color: rgb(236, 255, 235);
+    margin: 20px;
+    border-radius: 10px;
+    border: 15px solid aquamarine;
+}     
+
+.card-style-3 img {
+    width: 280px;
+    margin-left: 20px;
+    border: 6px solid aquamarine;
+}
+
+.details {
+    background-color: aquamarine;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 13px;
+    margin-left: 20px;
+    margin-right: 10px;
+    width: 280px;
+}
+
+.attack {
+    display: flex;
+    padding: 20px;
+    margin-left: 10px;
+}
+
+.card-style-3 .pokemon-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 0px;
+}
+
+.energy {
+    margin-right: 20px;
+}
+
+.data {
+    border: 3px solid aquamarine;
+    margin: 20px;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.health {
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.description {
+    border-bottom: 3px solid aquamarine;
+
+}
+
+h2 {
+    margin-bottom: 0px;
+    font-size: 25px;
+}
