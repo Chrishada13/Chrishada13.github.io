@@ -27,7 +27,7 @@ body {
 
 #hero-image {
     background-image: url("../images/palmtree-sea.avif");
-    height: 100vh;
+    height: 50vh;
     background-size: cover;
     background-position: center center;
     display: flex;
@@ -38,7 +38,7 @@ body {
 #hero-image .hero-image-beach {
     text-align: center;
     color: #fafaf8;
-    padding-top: 20vh;
+    padding-top: 5vh;
 }
 
 #hero-image h2 {
