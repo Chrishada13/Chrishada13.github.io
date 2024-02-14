@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: linear-gradient(#dcf8db, #c2fad5, #98faaf);
+}
+
+#layout {
+    max-width: 900px;
+    margin: 48px auto;
+    text-align: center;
+}
+
+.vertical-masonry-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    background-color: #3e7856;
+}
+
+.vertical-masonry-gallery img {
+    height: 250px;
+    flex: 1;
+    object-fit: cover;
+}
+
+
+#hero-image .hero-image-portfolio {
+    text-align: center;
+    color: #159c5b;
+    padding-top: 5vh;
+}
+
+#hero-image h2 {
+    font-size: 8vw;
+    margin-bottom: 5vh;
+}
+
+#hero-image h4 {
+    font-size: 3vw;
+    margin: 0px;
+}
+
+h3 {
+    color: #8ce49a;
+    font-size: 30px;
+}
+
+#nav {
+    background-color: #3e7856;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 125px;
+}
+
+#nav a {
+    color: rgb(217, 248, 220);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#flex-sbs {
+    width: 80vw;
+    max-width: 800px;
+    margin: 40px auto;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.image-container {
+    height: 400px;
+}
+
+#grid-side-by-side {
+    background-color: #076633;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 250px 250px;
+    grid-auto-rows: 150px;
+    justify-content: center;
+    gap: 50px;
+}
+
+@media screen and (max-width: 768px) {
+
+    */
+    #nav, #flex-side-by-side {
+        flex-direction: column;
+    }
+
+    #nav {
+        gap: 25px;
+        align-items: center;
+    }
+
+    #flex-side-by-side {
+        gap: 10px;
+    }
+
+    .image-container {
+        height: 200px;
+        width: 100%;
+    }
+
+    #grid-side-by-side {
+        grid-template-columns: 100%;
+    }
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content,
+h1 {
+    color: #264a35;
+}
+
+
