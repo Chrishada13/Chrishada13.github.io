@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: rgb(255, 230, 201);
+}
+
+
+#navbar-justified {
+    display: flex;
+    background: linear-gradient(
+        to bottom,
+        rgb(152, 102, 27), 
+        rgb(187, 126, 50)
+    );
+    justify-content: flex-end;
+}
+
+#navbar-justified a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+#navbar-justified #title {
+    display: flex;
+    margin-right: auto;
+    color: white;  
+}
+
+#hero-2 {
+    background-image: url("../images/vases.avif");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.spacer {
+    height: 100vh;
+}
+
