@@ -212,23 +212,14 @@ a {
 
 /* TODO: Add your media query code here */
 
-/* mobile breakpoint */
+/* screen view */
 @media screen and (max-width: 768px) {
-    body {
-        background-color: #b6f3fc;
-     }
 
     #nav {
     flex-direction: column;
     align-items: center;
      }
 
-    .three-cards {
-        height: 300px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    } 
 
     #hero h1 {
         font-size: 50px;
@@ -256,5 +247,6 @@ a {
     .two-cards {
         flex-direction: column;
     }
+
 
 }
