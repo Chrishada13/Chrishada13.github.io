@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#nature {
+    max-width: 200px;
+    margin: 48px auto;
+    text-align: center;
+}
+
+#nature img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 200px;
+    gap: 24px;
+    margin: 30px;
+}
+
+#nature img {
+    width: 100%;
+    object-fit: cover;
+}
+
+#nature img:hover {
+    box-shadow: 4px 4px 20px 20px #88f3ff;
+    transform: translateY(-4px);
+    padding: 0px;
+}
+
+#nature img {
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
+}
+
+#nature {
+    display: flex;
+}
+
+
+#jumpscare {
+    max-width: 200px;
+    margin: 48px auto;
+    text-align: center;
+}
+
+#jumpscare img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 200px;
+    gap: 24px;
+    margin: 30px;
+}
+
+#jumpscare img {
+    width: 100%;
+    object-fit: cover;
+}
+
+#jumpscare {
+    display: flex;
+}
+
+#jumpscare img {
+    opacity: 60;
+    visibility: hidden;
+    transition:
+        opacity 0.5s,
+        visibility 0.5s,
+        transform 0.2s,
+        box-shadow 0.2s;
+}
+
+#jumpscare:hover img {
+    opacity: 1;
+    visibility: visible;
+    box-shadow: 4px 4px 40px 40px #bb0000; 
+}
+
+#glowing {
+    max-width: 200px;
+    margin: 48px auto;
+    text-align: center;
+}
+
+#glowing img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 200px;
+    gap: 24px;
+    margin: 30px;
+}
+
+#glowing img {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+#glowing #fire:hover {
+    box-shadow: 4px 4px 20px 20px #fb853c;
+    transform: translateY(-4px);
+    padding: 0px;
+   
+}
+
+#glowing #fire:hover {
+    box-shadow: 4px 4px 20px 20px #fb853c;
+    transform: translateY(-4px);
+    padding: 0px;
+   
+}
+
+#glowing #fairy:hover {
+    box-shadow: 4px 4px 20px 20px #ff8bda;
+    transform: translateY(-4px);
+    padding: 0px;
+   
+}
+
+#glowing #glowstick:hover {
+    box-shadow: 4px 4px 20px 20px #4cfbdb;
+    transform: translateY(-4px);
+    padding: 0px;
+}
+
+#glowing #star:hover {
+    box-shadow: 4px 4px 20px 20px #f7ef08;
+    transform: translateY(-4px);
+    padding: 0px;
+}
+
+#glowing img {
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
+}
+
+#glowing {
+    display: flex;
+}
+
+

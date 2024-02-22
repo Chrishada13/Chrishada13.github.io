@@ -7,6 +7,12 @@ body {
     font-family: sans-serif;
 }
 
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 #navbar {
     background: linear-gradient(to bottom, #b88610, #96780e);
     display: flex;
