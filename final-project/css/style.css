@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FDF4E7;
+    margin: 0px;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    color: #006938; 
+}
+
+#header #logo {
+    margin-right: auto;
+}
+
+#header img {
+    width: 125px;
+}
+
+#navbar {
+    display: flex;
+   justify-content: space-between;
+   background-color: #006938;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+    margin: auto;
+ 
+}
+
+
+.spacer {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    background-image: url("../images/healthy.avif");
+    background-size: cover;
+    background-position: center center;
+
+}
+
+#specials {
+    background-color: aqua;
+    flex: 1;
+}
+
+#cta {
+    flex: 2;
+    margin-left: 10px;
+}
+
+#two-columns {
+    display: flex;
+}
+
+.spacer {
+    height: 20vh;
+}
+
