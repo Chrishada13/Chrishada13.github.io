@@ -1,4 +1,77 @@
+.bangers-regular {
+    font-family: "Bangers", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+
 * {
     box-sizing: border-box;
 }
 
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background: linear-gradient(blue, gold)
+}
+
+#header {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+#column-container {
+    display: flex;
+    align-items: center;
+    margin: 48px 0px;
+}
+
+#column-1 {
+    flex: 1;
+}
+
+#column-1 img {
+    object-fit: cover;
+    width:100%;
+}
+
+#column-2 {
+    flex: 1;
+}
+
+#column-2 img {
+    object-fit: cover;
+    width:100%;
+}
+
+#footer {
+    text-align: center;
+}
+
+#buttons {
+    text-align: center;
+}
+
+#buttons a {
+    text-decoration: none;
+    background-color: #3300ff;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    margin: 25px;
+}
+
+#buttons a:hover{
+    color: rgb(83, 83, 83);
+    background-color: rgb(74, 121, 248);
+}
+
+h3 {
+    text-align: center;
+}
+
+/* phone screen */
+@media screen and (max-width:800px) {
+
+}
+    
