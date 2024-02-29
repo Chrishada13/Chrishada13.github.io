@@ -8,17 +8,22 @@ body {
 }
 
 #header {
-    display: flex;
+    background-image: url(../images/word\ logo.png);
+    height: 25vh;
+    width:100%;
+    background-position:center center ;
     justify-content: space-between;
     color: #006938; 
+    background-size: cover;
 }
 
-#header #logo {
-    margin-right: auto;
-}
 
-#header img {
-    width: 125px;
+#header a {
+    background-color: #006938;
+    text-decoration: none;
+    color: #FDF4E7;
+    padding: 10px;
+    border-radius: 20px;
 }
 
 #navbar {
@@ -41,7 +46,6 @@ body {
     height: 2vh;
     display: flex;
     justify-content: center;
-
     background-size: cover;
     background-position: center center;
 
@@ -225,7 +229,7 @@ h2 {
 }
 
 #card-container {
-    display: fle;
+    display: flex;
     width:350px;
 }
 
@@ -233,5 +237,24 @@ p {
     padding-left: 20px;
     padding-right: 20px;
     font-size: 18px;
-
 }
+
+#layout {
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+}
+
+.cropped-grid-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    padding: 24px;
+    border: 10px solid #333333;
+}
+
+.cropped-grid-gallery img {
+    width: 100%;
+    margin: 10px;
+}
+
