@@ -9,8 +9,9 @@ body {
 
 #header {
     background-image: url(../images/word\ logo.png);
-    height: 25vh;
+    height: 30vh;
     width:100%;
+
     background-position:center center ;
     justify-content: space-between;
     color: #006938; 
@@ -26,7 +27,7 @@ body {
     border-radius: 20px;
 }
 
-#navbar {
+#navbar ul {
     display: flex;
    justify-content: space-between;
    background-color: #006938;
@@ -82,6 +83,7 @@ body {
     margin-bottom: 5vh;
     margin-right: 5vw;
     color: #f7a708;
+    text-shadow: black 2px 3px 3px;
     
 }
 
@@ -230,7 +232,6 @@ h2 {
 
 #card-container {
     display: flex;
-    width:350px;
 }
 
 p {
@@ -248,13 +249,78 @@ p {
 .cropped-grid-gallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-
+    gap: 10px;
     padding: 24px;
     border: 10px solid #333333;
 }
 
 .cropped-grid-gallery img {
     width: 100%;
-    margin: 10px;
 }
+
+#footer {
+    background-color:  #006938;
+    color: white;
+    padding: 12px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: white;
+}
+
+#footer-navbar {
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#layout {
+    width: 800px;
+    margin: 48px auto;
+    font-size: 24px;
+}
+
+#hero1 h4 {
+    color: white;
+}
+
+#hero2 h4 {
+    color: white;
+}
+
+#hero3 h4 {
+    color: white;
+}
+
+#f-1 {
+    flex:1
+}
+
+#f-2 {
+    flex: 1;
+}
+
+#f-3 {
+    flex: 1;
+}
+
+@media screen and(min-width:880px) and(max-width:700px){
+    body{
+        background-color: aqua;
+    }
+
+    #header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #navbar a {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+} 
 
